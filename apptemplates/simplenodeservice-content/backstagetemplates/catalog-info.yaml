@@ -14,7 +14,7 @@ metadata:
     - url: https://github.com/Epeiswerth/enablement-openpipeline-segments-iam.git
       title: Github Repo
       icon: github
-    - url: https://stunning-space-succotash-wrq9q7jgr75fgp4p-DEMO_APP_PORT_NUMBER_PLACEHOLDER.GITHUB_CODESPACES_PORT_FORWARDING_DOMAIN_PLACEHOLDER/${{ values.projectName }}-${{ values.teamIdentifier }}-${{ values.releaseStage }}
+    - url: https://stunning-space-succotash-wrq9q7jgr75fgp4p-80.GITHUB_CODESPACES_PORT_FORWARDING_DOMAIN_PLACEHOLDER/${{ values.projectName }}-${{ values.teamIdentifier }}-${{ values.releaseStage }}
       title: "Browse Application"
       icon: subject
     - title: View in ArgoCD
