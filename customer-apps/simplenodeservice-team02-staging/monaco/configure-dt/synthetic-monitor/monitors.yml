@@ -1,0 +1,14 @@
+configs:
+- id: simplenodeservice-team02-staging_synthetic
+  config:
+    name: "Healthcheck simplenodeservice-team02-staging"
+    parameters:
+      baseUrl: "https://ideal-spoon-jjp4p5wq46v35wx4-80.app.github.dev/simplenodeservice-team02-staging"
+      frequencyMin: "1"
+      enabled: "true"
+      geoLocation: "GEOLOCATION-3F7C50D0C9065578"
+      teamIdentifier: "team02"
+    template: health-check-http.json
+    skip: false
+  type:
+    api: synthetic-monitor
